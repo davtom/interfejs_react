@@ -1,16 +1,34 @@
 .App {
+  height: 100%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  display: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .App-header {
@@ -28,6 +46,24 @@
   color: #61dafb;
 }
 
+.App-middle {
+  background-color: #282c3481;
+  margin-right: 55px;
+}
+
+.App-midle {
+  background-color: #282c3481;
+}
+
+.row {
+  background-color: #282c3481;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +71,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dark-mode .row {
+  background-color: #000000de;
+  color: #d0ff00;
+}
+
+.dark-mode .App-middle {
+  background-color: #000000de;
+}
+
+.dark-mode .App-midle {
+  background-color: #000000de;
+}
+
+.login-form {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 50%;
+  background-color: rgb(16, 154, 179);
+}
+
+.chat {
+  position: absolute;
+  background-color: #a3a5aa81;
+  color: black;
+  bottom: 8%;
+  right: 6%;
+  height: 26vh;
+  width: 20vh;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 5px;
 }
