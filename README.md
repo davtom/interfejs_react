@@ -1,6 +1,6 @@
 # Login i hasło do zalogowania się
 
-login: admin
+login: admin\
 hasło: haslo
 
 # Getting Started with Create React App
