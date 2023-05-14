@@ -30,7 +30,7 @@ nav a {
   color: inherit;
   text-decoration: none;
 }
-
+textarea
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -101,17 +101,17 @@ nav a {
   height: 6vh;
   width: 6vh;
   border-radius: 50%;
-  background-color: rgb(16, 154, 179);
+  background-color: rgb(97 218 251);
 }
 
 .chat {
   position: absolute;
-  background-color: #a3a5aa81;
+  background-color: #61dafb;
   color: black;
-  bottom: 8%;
+  bottom: 9%;
   right: 6%;
-  height: 26vh;
-  width: 20vh;
+  height: 40vh;
+  width: 30vh;
   border: 1px solid black;
   box-shadow: 2px 2px 5px black;
   border-radius: 5px;
